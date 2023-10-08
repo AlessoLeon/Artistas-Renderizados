@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 16px === 1em - 62.5% === 10px */
+    color: #111111;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+header, footer {
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+p {
+    font-size: 1.8em;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgba(90, 59, 122, 0.863);
+    padding: 2.5em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    max-width: 300px;
+}
+
+nav picture a {
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    gap: 2.6em;
+}
+
+.navbar__link{
+    font-size: 2em;
+    padding: 6px;
+}
+
+.navbar__link:hover {
+    background-color: rgb(218, 22, 185);
+}
