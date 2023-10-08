@@ -40,7 +40,7 @@ img {
     margin: 0 auto;
 }
 
-/* HEADER */
+/* ======================== HEADER ======================== */
 
 header {
     background-color: rgba(90, 59, 122, 0.863);
@@ -73,8 +73,38 @@ nav picture a {
 .navbar__link{
     font-size: 2em;
     padding: 6px;
+    display: inline-block;
+    transition: background .5s ease-in-out;
+    position: relative;
 }
 
 .navbar__link:hover {
+    background-color: rgb(218, 22, 185);
+}
+
+.with-icon{
+    display: flex;
+    align-items: center;
+}
+
+.with-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    width: 220px;
+    position: absolute;
+    background-color: rgba(90, 59, 122, 0.863);
+}
+
+.submenu__link {
+    display: block;
+    padding: 1.2rem;
+    font-size: medium;
+    transition: background .3s ease-in-out;
+}
+
+.submenu__link:hover {
     background-color: rgb(218, 22, 185);
 }
