@@ -108,3 +108,63 @@ nav picture a {
 .submenu__link:hover {
     background-color: rgb(218, 22, 185);
 }
+
+/* ======================== HEADER ======================== */
+
+/* ======================== BANNER ======================== */
+
+.banner {
+    background-image: url(../img/2.Museo/Museo.jpg);
+    padding: 22em;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #1111115b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(0.9px) brightness(0.9);
+}
+
+.banner__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: start;
+    z-index: 2;
+    position: relative;
+}
+
+.banner__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    color: rgb(255, 230, 87)
+}
+
+.banner__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    color: rgb(50, 236, 190)
+}
+
+.banner__link {
+    display: inline-block;
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgb(218, 22, 185);
+    padding: 1.4em;
+    border-radius: 3em;
+    font-weight: 500;
+}
+
+.banner__link:hover {
+    background-color: rgb(50, 236, 190);
+    color: #111111;
+    transition: background .4s ease-in-out;
+}
