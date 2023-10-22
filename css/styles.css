@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 
 *, *::before, *::after { 
     margin: 0px;
@@ -36,7 +38,7 @@ img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -97,7 +99,7 @@ nav picture a {
     display: none;
     width: 220px;
     position: absolute;
-    background-color: rgba(90, 59, 122, 0.863);
+    background-color: rgb(90, 59, 122);
     z-index: 3;
     border-radius: 17px;
 }
@@ -150,7 +152,7 @@ nav picture a {
 .banner__title {
     font-family: 'Raleway', sans-serif;
     font-size: 5em;
-    color: rgb(255, 230, 87)
+    color: rgb(255, 230, 87);
 }
 
 .banner__text {
@@ -180,13 +182,18 @@ nav picture a {
 /* ========================= MAIN ========================= */
 
 .contenedor__cartas{
-    background-color: rgb(163, 151, 127);
+    background-color: rgba(90, 59, 122, 0.863);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em;
 }
 
 .seleccionador__cartas {
     width: 100%;
     display: flex;
-    max-width: 1100px;
+    max-width: 1500px;
+    gap: 2em;
 }
 
 .carta {
@@ -194,7 +201,7 @@ nav picture a {
     margin: 20PX;
     border-radius: 6px;
     overflow: hidden;
-    background: #fff;
+    background: rgb(50, 236, 190);
     box-shadow: 0px 1px 10px rgba(0,0,0,2);
     cursor: default;
     transition: all 400ms ease;
@@ -215,3 +222,30 @@ nav picture a {
     text-align: center;
 }
 
+.carta__title {
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    font-family: 'Merriweather', serif;
+    color:  rgb(218, 22, 185);
+}
+
+/* ========================= MAIN ========================= */
+
+/* ========================= FOOTER ========================= */
+
+.footer {
+    background-color:  rgb(90, 59, 122);
+    padding: 1.6em;
+}
+
+.footer__copy {
+    display: flex;
+    justify-content: center;
+    color:  rgb(255, 230, 87);
+}
+
+/* ========================= FOOTER ========================= */
