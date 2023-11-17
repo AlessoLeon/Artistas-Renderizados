@@ -99,7 +99,7 @@ nav picture a {
     display: none;
     width: 220px;
     position: absolute;
-    background-color: rgb(90, 59, 122);
+    background-color: rgba(90, 59, 122, 0.904);
     z-index: 3;
     border-radius: 17px;
 }
@@ -186,7 +186,6 @@ nav picture a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 4em;
 }
 
 .seleccionador__cartas {
@@ -194,6 +193,10 @@ nav picture a {
     display: flex;
     max-width: 1500px;
     gap: 2em;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5em;
+    padding: 4em; */
 }
 
 .carta {
@@ -231,6 +234,10 @@ nav picture a {
     margin-top: 0.5em;
     font-family: 'Merriweather', serif;
     color:  rgb(218, 22, 185);
+}
+
+.carta__text {
+    text-align: center;
 }
 
 /* ========================= MAIN ========================= */
