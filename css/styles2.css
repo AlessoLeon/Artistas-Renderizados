@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* ========================= MAIN ========================= */
+
+.Seleccionador {
+    padding: 5em;
+    background-color:rgb(50, 236, 190);
+}
+
+.seleccionador__artista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    margin: 10px;
+
+}
+
+.seleccionador__artista__retrato img {
+    width: 100%;
+    border: rgb(184, 152, 64) 12px solid;
+}
+
+
+.seleccionador__artista__info {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ========================= MAIN ========================= */
